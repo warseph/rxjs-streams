@@ -13,7 +13,7 @@
     "streams"
   ],
   "name": "rxjs-streams",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Nodejs streams and RxJS integration",
   "main": "build/index.js",
   "types": "build/index.d.ts",
