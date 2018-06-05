@@ -15,7 +15,7 @@
   "name": "rxjs-streams",
   "version": "1.0.2",
   "description": "Nodejs streams and RxJS integration",
-  "main": "index.js",
+  "main": "build/index.js",
   "private": false,
   "author": {
     "name": "Ezequiel Rabinovich",
