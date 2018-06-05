@@ -5,7 +5,8 @@
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "compile": "tsc",
     "clean": "rm -rf build/*",
-    "start": "node ./build"
+    "start": "node ./build",
+    "prebuild": "yarn compile"
   },
   "keywords": [
     "rxjs",
