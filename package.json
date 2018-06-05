@@ -16,6 +16,7 @@
   "version": "1.0.3",
   "description": "Nodejs streams and RxJS integration",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "private": false,
   "author": {
     "name": "Ezequiel Rabinovich",
