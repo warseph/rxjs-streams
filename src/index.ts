@@ -1,7 +1,7 @@
 import * as stream from 'stream';
 import { Observable } from 'rxjs';
 
-export const fromReadStream = (stream: stream.Readable): Observable<string> =>
+export const fromReadStream = (stream: stream.Stream): Observable<string> =>
   Observable.create((observer) => {
     stream.on('end', () => observer.complete());
     stream.on('close', () => observer.complete());
