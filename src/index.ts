@@ -6,5 +6,5 @@ export const fromReadStream = (stream: stream.Stream): Observable<string> =>
     stream.on('end', () => observer.complete());
     stream.on('close', () => observer.complete());
     stream.on('error', error => observer.error(error));
-    stream.on('data', chunk => observer.next(chunk));
+    stream.on('data', chunk => observer.next(chunk.toString()));
   });
